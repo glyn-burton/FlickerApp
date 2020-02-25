@@ -1,0 +1,10 @@
+1. What is Reactive Programming?
+Reactive Programming is programming done using asynchronous data streams. It allows us to turn every piece
+of data into a stream that can be handled.
+2. What are cold observables?
+Cold observerbles is when the data producer of the observable is created by the same observable
+3. What are hot observables?
+Hot observerbles have their data producer outside of the observerable.
+4. What is back pressure when talking about RxJava?
+Backpressure is a method of handling fast producing data. Instead of having to process it all at once,
+it processes it as needed.
